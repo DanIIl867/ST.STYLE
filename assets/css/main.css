@@ -1,0 +1,60 @@
+.language-selector{
+
+}
+
+.language-selector .wrapper-language{
+   max-height: 0;
+   overflow: hidden;
+   background: red;
+   transition: .4s;
+}
+.language-selector .wrapper-language a{
+   color: white;
+}
+
+.language-selector:hover .wrapper-language{
+   max-height: 300px;
+   transition: .4s;
+}
+
+.top-bar{
+   display: flex;
+   background-color: red;;
+   width: 1500px;
+   height: 60px;
+   position: relative;
+
+}
+
+.h6-1{
+   position: absolute;
+   padding-left: 150px;
+   font-size: 20px;
+}
+
+.h6-2{
+   position: absolute;
+   padding-left: 400px;
+   font-size: 20px;
+}
+
+.h6-3{
+   position: absolute;
+   padding-left: 650px;
+   font-size: 20px;
+}
+
+p{
+   padding-top: 15px;
+   padding-left: 1000px;
+}
+
+.wrapper-language{
+   margin-left: 1000px;
+}
+
+
+img{
+   width: 10px;
+   height: 10px;
+}
