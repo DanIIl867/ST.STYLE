@@ -1,0 +1,262 @@
+.language-selector{
+
+}
+
+* {
+
+   box-sizing: border-box;
+
+   font-family:
+
+}
+
+.language-selector .wrapper-language{
+   max-height: 0;
+   overflow: hidden;
+   background: red;
+   transition: .4s;
+}
+.language-selector .wrapper-language a{
+   color: white;
+}
+
+.language-selector:hover .wrapper-language{
+   max-height: 300px;
+   transition: .4s;
+}
+
+.top-bar{
+   background-color: red;;
+   width: 1500px;
+   height: 60px;
+
+
+}
+
+.h6-1{
+   position: absolute;
+   padding-left: 150px;
+   font-size: 20px;
+}
+
+.h6-2{
+   position: absolute;
+   padding-left: 400px;
+   font-size: 20px;
+}
+
+.h6-3{
+   position: absolute;
+   padding-left: 650px;
+   font-size: 20px;
+}
+
+p{
+   padding-top: 15px;
+   padding-left: 1000px;
+}
+
+.wrapper-language{
+   margin-left: 1000px;
+}
+
+
+img{
+   width: 10px;
+   height: 10px;
+}
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>ST-STYLE</title>
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/reset.css">
+   </head>
+   <body>
+      <header>
+            <div class="top-bar">
+               <div class="container flex-container">
+                  <div class="wrapper-text">
+                     <div class="h6-1"><h6><img src="https://cdn-icons-png.flaticon.com/512/3231/3231942.png" alt=""/>быстрая доставка по всему миру</h6></div>
+                     <div class="h6-2"><h6><img src="https://cdn-icons-png.flaticon.com/512/3231/3231942.png" alt=""/>быстрая доставка по всему миру</h6></div>
+                     <div class="h6-3"><h6><img src="https://cdn-icons-png.flaticon.com/512/3231/3231942.png" alt=""/>быстрая доставка по всему миру</h6></div>
+                  </div>
+                  <div class="wrapper-language-selector">
+                     <div class="language-selector">
+                        <div class="language">
+                           <p class="selected-language">UA</p>
+                        </div>
+                        <div class="wrapper-language">
+                           <a href="">RU</a>
+                           <a href="">EN</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      </header>
+   </body>
+</html>
+
+
+
+
+
+* {
+   box-sizing: border-box;
+   font-family: 'Lato', sans-serif;
+}
+
+
+
+.top-bar {
+   position: relative;
+   max-height: 36px;
+   background: #E7462E;
+}
+
+
+.top-bar .wrapper-text {
+   display: flex;
+}
+
+
+.flex-container {
+   display: flex;
+   justify-content: center;
+   height: 36px;
+}
+
+
+.flex-container .selected-language,
+.flex-container .wrapper-text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+.container {
+   max-width: 1112px;
+   margin: 0 auto;
+}
+
+
+.container .wrapper-text h6,
+.container .language-selector .wrapper-languages,
+.container .language-selector .selected-language{
+   margin-left: 80px;
+   color: white;  
+
+}
+
+
+
+
+
+.language-selector .selected-language {
+   padding: 5px;
+   max-height: 35px;
+   max-width: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+
+}
+
+
+
+.language-selector .selected-language::after {
+
+   content: '>';
+   transform: rotate(90deg);
+   margin-left: 5px;
+   color: white;
+}
+
+
+.language-selector .selected-language,
+.language-selector .wrapper-languages {
+   background: #E7462E;;
+   margin: 0 auto;
+   border-radius: 5px;
+}
+
+
+
+.language-selector .wrapper-languages {
+   max-height: 0;
+   overflow: hidden;
+   transition: 0.4s;
+   width: 50px;
+   display: flex;
+   flex-direction: column;
+}
+
+
+.language-selector:hover .wrapper-languages{
+   max-height: 300px;
+   padding: 5px;
+   padding-left: 8px;
+   max-width: 50px;
+   transition: 0.4s;
+}
+
+
+.language-selector .wrapper-languages a {
+   color: white;
+   text-decoration: none;
+}
+
+
+.wrapper-text {
+   font-size: 22px;
+   word-spacing: 1px;
+   display: inline;
+}
+
+img{
+
+}
+
+.header{
+   position: relative;
+   max-height: 36px;
+   background: #E7462E;
+}
+
+
+
+
+
+<h6 class="description-text"><img src="assets/img/delivery-truck.svg">быстрая доставка по всему миру</h6>
+                        <h6 class="description-text"></h6>><img src="assets/img/delivery-truck.svg">быстрая доставка по всему миру</h6>
+                        <h6 class="description-text"></h6>><img src="assets/img/delivery-truck.svg">быстрая доставка по всему миру</h6>
+
+
+
+
+<div class="header">
+                <div class="content">
+                    <div class="logo">
+                        <img src="assets/img/Frame.svg" alt="">
+                    </div>
+                    <div class="input">
+                        <input type="Поиск"><img src="assets/img/Vector (3).png" alt="">
+                    </div>
+                    <div class="registration">
+                        <img src="assets/img/Vector.png" alt=""><a href="">entrance/registration</a>
+                    </div>
+                    <div class="text">
+                        <a href="">UAH</a>
+                    </div>
+                </div>
+            </div>
