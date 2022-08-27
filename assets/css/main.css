@@ -350,10 +350,10 @@
    display: none;
  }
  
- * {
-   margin: 0;
-   padding: 0;
- }
+ /**{
+   *margin: 0;
+   *padding: 0;
+ }*/
 
 
 * {
@@ -465,15 +465,19 @@
    text-decoration: none;
 }
 
-
+#img-1{
+   
+   
+}
 
 .wrapper-text {
-   font-size: 22px;
+   font-size: 15px;
    word-spacing: 1px;
    display: inline;
 }
 
 .head{
+   display: flex;
    position: relative;
    width: 1920;
    height: 269px;
@@ -482,12 +486,108 @@
 
 .logo{
    position: absolute;
-   padding-left: 405px;
-   padding-top: 37px;
+   left: 405px;
+   top: 73px;
+   height: 22px;
+   width: 19.66242218017578px;
+   border-radius: 0px;
+
 }
 
-.input{
+.input .text{
    position: absolute;
-   padding-left: 630px;
-   padding-top: 21px;
+   left: 630px;
+   top: 55px;
+   width: 480px;
+   height: 55px;
+   border: #DBDBDB solid 1px;
+   border-radius: 5px;
+   font-family: 'Montserrat';
+   opacity: 0.3;
+}
+
+
+.registration > img{
+   position: absolute;
+   left: 1138px;
+   top: 69px;
+   height: 32px;
+   width: 32px;
+}
+
+.registration > a{
+   position: absolute;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   left: 1183px;
+   top: 77px;
+   font-size: 15px;
+   height: 18px;
+   width: 145px;
+   border-radius: nullpx;
+   font-style: normal;
+   opacity: 0.3;
+}
+
+#img-4{
+   position: absolute;
+   height: 32.99998092651367px;
+   width: 30.66691017150879px;
+   left: 1347px;
+   top: 69px;
+}
+
+#img-5{
+   position: absolute;
+   left: 1396px;
+   top: 70px;
+   height: 29.89139175415039px;
+   width: 34.00000762939453px;
+
+}
+
+.wrapper-languages-button{
+   position: absolute;
+   height: 17px;
+   width: 36px;
+   left: 1458px;
+   top: 77px;
+   position: absolute;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   letter-spacing: 0.09em;
+   text-transform: uppercase;
+   color: #E7462E;
+   border-radius: nullpx;
+}
+
+.btn .button{
+   position: absolute;
+   left: 1069px;
+   top: 70px;
+   background: white;
+   border: none ;
+}
+
+.line{
+   position: absolute;
+   border-bottom: 1px solid #DBDBDB;
+   width: 1920px;
+   top: 130px;
+}
+
+.content > a{
+   position: absolute;
+   left: 1370px;
+   top: 67px;
+   width: 20px;
+   height: 20px;
+   color: white;
+   border: #E7462E solid 1px;
+   border-radius: 100px;
+   text-decoration: none;
+   background: #E7462E;
 }
