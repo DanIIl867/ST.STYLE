@@ -361,7 +361,12 @@
    font-family: 'Lato', sans-serif;
 }
 
-
+.frame-1{
+   position: relative;
+   width: 1920px;
+   height: 305px;
+   background: #FFFFFF;
+}
 
 .top-bar {
    max-height: 36px;
@@ -465,9 +470,10 @@
    text-decoration: none;
 }
 
-#img-1{
-   
-   
+.wrapper-text > img:first-child{
+   position: absolute;
+   left: 403px;
+   top: 12px;
 }
 
 .wrapper-text {
@@ -476,11 +482,8 @@
    display: inline;
 }
 
-.head{
-   display: flex;
-   position: relative;
-   width: 1920;
-   height: 269px;
+.header{
+   position: absolute;
    background: white;
 }
 
@@ -489,7 +492,7 @@
    left: 405px;
    top: 73px;
    height: 22px;
-   width: 19.66242218017578px;
+   width: 19px;
    border-radius: 0px;
 
 }
@@ -529,20 +532,20 @@
    opacity: 0.3;
 }
 
-#img-4{
+.content > img:first-child{
    position: absolute;
-   height: 32.99998092651367px;
-   width: 30.66691017150879px;
+   height: 32px;
+   width: 30px;
    left: 1347px;
    top: 69px;
 }
 
-#img-5{
+.content > img:nth-child(2){
    position: absolute;
    left: 1396px;
    top: 70px;
-   height: 29.89139175415039px;
-   width: 34.00000762939453px;
+   height: 29px;
+   width: 34px;
 
 }
 
@@ -590,4 +593,74 @@
    border-radius: 100px;
    text-decoration: none;
    background: #E7462E;
+}
+
+.wrapper-navigation > .nav > a{
+   position: absolute;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 18px;
+   border-radius: nullpx;
+}
+
+.wrapper-navigation > .nav > a:first-child{
+   height: 18px;
+   width: 75px;
+   left: 405px;
+   top: 149px;
+   
+}
+
+.wrapper-navigation > .nav > a:nth-child(2){
+   height: 18px;
+   width: 84px;
+   left: 538px;
+   top: 149px;
+}
+
+.wrapper-navigation > .nav > a:nth-child(3){
+   height: 18px;
+   width: 116px;
+   left: 674px;
+   top: 149px;
+}
+
+.wrapper-navigation > .nav > a:nth-child(4){
+   height: 18px;
+   width: 189px;
+   left: 844px;
+   top: 149px;
+}
+
+.wrapper-navigation > .nav > a:nth-child(5){
+   height: 18px;
+   width: 147px;
+   left: 1087px;
+   top: 149px;
+}
+
+.wrapper-navigation > .nav > a:nth-child(6){
+   height: 18px;
+   width: 114px;
+   left: 1288px;
+   top: 149px;
+}
+
+.wrapper-navigation > .nav > a:nth-child(7){
+   height: 18px;
+   width: 54px;
+   left: 1465px;
+   top: 149px;
+   color: #ED3737;
+}
+
+.a_line{
+   position: absolute;
+   border-bottom: 1px solid #DBDBDB;
+   width: 1920px;
+   top: 188px;
 }
